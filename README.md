@@ -1,3 +1,3 @@
 # ITMD541_Spring2025
 
-<a>Lab-1</a>
+<a href="https://sougandhimanu.github.io/ITMD541_Spring2025/Lab-1/"> Lab-1
