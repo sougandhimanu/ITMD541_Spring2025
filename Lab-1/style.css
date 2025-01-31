@@ -1,0 +1,20 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;    
+}
+
+/* Box styling for content */
+.container {
+    border: 20px solid green; /* Medium border */
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px; /* Center the box */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow */
+    background-color: #ffdab9; /* Light background for readability */
+    color: blueviolet;
+}
+
+header {
+    text-align: center;
+}
