@@ -14,7 +14,11 @@ body {
     background-color: #ffdab9; /* Light background for readability */
     color: blueviolet;
 }
+#introduction,#education{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 header {
-    text-align: justify;
+    text-align: center;
 }
