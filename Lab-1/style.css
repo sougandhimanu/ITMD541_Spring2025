@@ -1,0 +1,23 @@
+/* Body styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;    
+}
+
+/* Box styling for content */
+.container {
+    border: 20px solid green; /* Medium border */
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px; /* Center the box */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow */
+    background-color: #ffdab9; /* Light background for readability */
+    color: blueviolet;
+}
+#introduction,#education{
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+}
