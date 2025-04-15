@@ -1,0 +1,176 @@
+/* Sougandhi Manonmani Pendyala - A20549991 */
+
+/* Global body styles */
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 18px; 
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Centering headings */
+h3,
+h1 {
+  text-align: center;
+}
+
+/* Spacing for headings */
+h3 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Styling the form container (Larger Box) */
+form {
+  background-color: #9fd5f1;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 40px;          
+  width: 100%;
+  max-width: 1000px;       
+  text-align: left;
+  transition: all 0.3s ease !important;
+}
+
+/* Hover effect for the form */
+form:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling form labels for readability */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.1em; 
+  color: #333;
+}
+
+/* Input fields styling - now taking full width */
+input[type="text"],
+input[type="range"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+/* Focus effect for inputs */
+input[type="text"]:focus,
+input[type="range"]:focus,
+select:focus {
+  border-color: #3b8bfa;
+  outline: none;
+}
+
+/* Slider specific styling */
+input[type="range"] {
+  margin-top: 10px;
+}
+
+/* Disabled input styling for contrast */
+input[type="text"]:disabled {
+  background-color: #d9d9d9;
+  color: #666;
+  border: 1px solid #ccc;
+}
+
+/* Conversion rates styling */
+#conversionRates {
+  font-size: 1em;
+  margin-top: 15px;
+  color: #666;
+}
+
+/* Error message styling */
+#errorMsg {
+  color: #d9534f;
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Responsive styling for medium screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  form {
+    width: 90%;
+    padding: 20px;
+  }
+  label {
+    font-size: 1.1em;
+  }
+  input[type="text"],
+  input[type="range"],
+  select {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 100%;
+  }
+  #conversionRates {
+    font-size: 1em;
+  }
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  form {
+    padding: 15px;
+    width: 90%;
+  }
+  label {
+    font-size: 1em;
+  }
+  input[type="text"],
+  input[type="range"],
+  select {
+    padding: 8px;
+    font-size: 1em;
+    width: 100%;
+  }
+  #conversionRates {
+    font-size: 0.95em;
+  }
+}
+
+/* Button styling */
+button {
+  background-color: #3b8bfa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.1em;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #357ae8;
+}
