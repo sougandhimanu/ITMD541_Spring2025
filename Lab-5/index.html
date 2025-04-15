@@ -1,0 +1,60 @@
+<!-- Sougandhi Manonmani Pendyala - ITMD 541 - Lab 5 -->
+<!--  Sougandhi Manonmani Pendyala - A20549991 -->
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="tipForm">
+      <h3>ITMD 541 - Lab 5 - Sougandhi Manonmani Pendyala</h3>
+      <h1>TIP CALCULATOR</h1>
+      
+      <!-- Bill Total Input -->
+      <label for="billTotal">Bill Total:</label>
+      <input type="text" id="billTotal" placeholder="Enter bill amount" />
+      
+      <p id="errorMsg"></p>
+      
+      <!-- Total with Tax (11%) in USD -->
+      <label for="totalWithTax">Total with Tax (11%):</label>
+      <input type="text" id="totalWithTax" disabled />
+
+      <!-- Currency Selection -->
+      <label for="currency">Select Currency:</label>
+      <select id="currency">
+        <option value="USD">USD ($)</option>
+        <option value="INR">Indian Rupee (₹)</option>
+        <option value="EUR">Euro (€)</option>
+      </select>
+      
+      <!-- Currency Conversion Rates Display -->
+      <div id="conversionRates">
+        <p>Conversion Rates:</p>
+        <p>$1 USD = ₹84.07 INR for Rupees</p>
+        <p>$1 USD = €0.88 EUR for Euros</p> 
+      </div>
+      
+      <!-- Tip Slider -->
+      <label for="tipSlider">Tip Percentage:</label>
+      <input type="range" id="tipSlider" min="0" max="100" value="15" />
+      
+      <!-- Tip Percentage Display -->
+      <label for="tipPercentage">Tip Percentage:</label>
+      <input type="text" id="tipPercentageDisplay" disabled />
+      
+      <!-- Converted Tip Amount -->
+      <label for="tipAmount">Converted Tip Amount:</label>
+      <input type="text" id="tipAmount" disabled />
+      
+      <!-- Converted Total with Tip & Tax -->
+      <label for="totalWithTipTax">Converted Total with Tip & Tax:</label>
+      <input type="text" id="totalWithTipTax" disabled />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
