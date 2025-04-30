@@ -1,4 +1,4 @@
-// script.js — A20549991 - Sougandhi Manonmani Pendyala
+//script.js — A20549991 - Sougandhi Manonmani Pendyala
 
 (() => {
   // 1. DOM elements
