@@ -7,3 +7,5 @@
 <a href="https://sougandhimanu.github.io/ITMD541_Spring2025/Lab-3/"> Lab-3
 </br>
 <a href="https://sougandhimanu.github.io/ITMD541_Spring2025/Lab-5/"> Lab-5
+</br>
+<a href="https://sougandhimanu.github.io/ITMD541_Spring2025/Lab-6/"> Lab-6
