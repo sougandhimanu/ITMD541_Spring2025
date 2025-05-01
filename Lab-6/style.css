@@ -222,24 +222,35 @@ main {
 
 /* Medium (481–768px) */
 @media (max-width: 768px) and (min-width: 481px) {
-  #results-section { width: 90%; }
-  #search-section { flex-wrap: wrap; gap: 1rem; }
+  #results-section {
+    width: 90%;
+  }
+  #search-section {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
 
 /* Small (≤480px) */
 @media (max-width: 480px) {
-  html { font-size: 110%; }
-  .app-title { font-size: 2rem; }
+  html {
+    font-size: 110%;
+  }
+  .app-title {
+    font-size: 2rem;
+  }
 
+  /* Stack search controls */
   #search-section {
     flex-direction: column;
     align-items: stretch;
     gap: 0.75rem;
     padding: 1rem;
-    white-space: normal;
+    white-space: normal;   /* allow wrapping */
   }
-  #search-section label { text-align: center; }
-
+  #search-section label {
+    text-align: center;
+  }
   .city-picker,
   .geo-button,
   #fetch-button {
@@ -248,10 +259,22 @@ main {
     padding: 0.75rem 1rem;
   }
 
-  #results-section { width: 100%; padding: 1rem; }
-  .card { width: 100%; max-width: none; padding: 1.5rem; }
-  .card h2 { font-size: 1.5rem; }
+  /* Full-width results container */
+  #results-section {
+    width: 100%;
+    padding: 1rem;
+  }
+  /* Cards fill their row */
+  .card {
+    width: 100%;
+    max-width: none;
+    padding: 1.5rem;
+  }
+  .card h2 {
+    font-size: 1.5rem;
+  }
 
+  /* Wrap each data row to two lines */
   .data-item {
     flex-wrap: wrap;
   }
@@ -259,8 +282,8 @@ main {
   .data-item .value {
     width: 100%;
     text-align: left;
-    white-space: normal;
-    overflow-wrap: anywhere;
+    white-space: normal;  
+    overflow-wrap: anywhere; 
   }
   .data-item .value {
     margin-top: 0.25rem;
